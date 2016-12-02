@@ -28,10 +28,11 @@ class FeedController: UITableViewController {
         let chelsea = #imageLiteral(resourceName: "chelsea")
         let card2 = CardInfo(name: "Chelsea", photo: chelsea)!
         
-        let card3 = CardInfo(name: "Manchester United", photo: #imageLiteral(resourceName: "manchester_united"))!
+        let card3 = CardInfo(name: "Manchester Utd", photo: #imageLiteral(resourceName: "manchester_united"))!
         
         let card4 = CardInfo(name: "Barcelona", photo: #imageLiteral(resourceName: "barcelona"))!
-        cards += [card1,card2,card3,card4]
+        let card5 = CardInfo(name: "PSG", photo: #imageLiteral(resourceName: "psg"))!
+        cards += [card1,card2,card3,card4,card5]
     }
 
     override func didReceiveMemoryWarning() {
